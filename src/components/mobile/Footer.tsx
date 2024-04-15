@@ -14,7 +14,9 @@ function Footer() {
         <div id="footer">
             <p>
                 &copy; <span id="copyright-year" ref={yearRef} />{" "}
-                <strong>TodayLunch</strong>. All Rights Reserved.
+                <strong>TodayLunch</strong>.
+                <br />
+                All Rights Reserved.
             </p>
         </div>
     );
