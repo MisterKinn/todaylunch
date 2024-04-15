@@ -1,4 +1,4 @@
-import "../../styles/todaylunch.css";
+import "../../styles/style.css";
 
 function Instagram() {
     return (
