@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div>
+        <div id="about">
             <h2 className="introduce" data-aos="fade-up">
                 What is TodayLunch?
             </h2>

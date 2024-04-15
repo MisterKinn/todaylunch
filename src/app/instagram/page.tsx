@@ -3,13 +3,15 @@ import "../../styles/todaylunch.css";
 function Instagram() {
     return (
         <div>
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="instagram-introduce" data-aos="fade-up">
                 TodayLunch in Instagram
             </h2>
-            <p className="click-explain">카드 클릭 시 각 인스타그램 페이지로 이동됩니다.</p>
+            <p className="click-explain">
+                카드 클릭 시 각 인스타그램 페이지로 이동됩니다.
+            </p>
 
             <div className="container" data-aos="fade-up">
-                <a 
+                <a
                     href="https://www.instagram.com/gmsh_lunch"
                     target="_blank"
                     title="TodayLunch in GMSH"
@@ -27,9 +29,13 @@ function Instagram() {
                                 </span>
                                 <div className="card-text">
                                     <strong>
-                                        <span className="white">경기영상과학고등학교</span>의 급식을
+                                        <span className="white">
+                                            경기영상과학고등학교
+                                        </span>
+                                        의 급식을
                                         <br />
-                                        <span className="white">Instagram</span>에서 확인하세요!
+                                        <span className="white">Instagram</span>
+                                        에서 확인하세요!
                                     </strong>
                                 </div>
                             </div>
@@ -37,7 +43,7 @@ function Instagram() {
                     </div>
                 </a>
 
-                <a 
+                <a
                     href="https://www.instagram.com/gjhs_lunch"
                     target="_blank"
                     title="TodayLunch in Gajwa"
@@ -55,9 +61,13 @@ function Instagram() {
                                 </span>
                                 <div className="card-text">
                                     <strong>
-                                        <span className="white">가좌고등학교</span>의 급식을
+                                        <span className="white">
+                                            가좌고등학교
+                                        </span>
+                                        의 급식을
                                         <br />
-                                        <span className="white">Instagram</span>에서 확인하세요!
+                                        <span className="white">Instagram</span>
+                                        에서 확인하세요!
                                     </strong>
                                 </div>
                             </div>
