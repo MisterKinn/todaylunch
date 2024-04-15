@@ -48,15 +48,23 @@ body {
     margin: 0.5em;
 }
 
-.sub-title {
-    font-size: 1.75em;
-    color: grey;
-    text-shadow: 2px 2px black;
+.mobile-title {
+    font-size: 3em;
+    color: white;
+    margin: 0.5em;
 }
 
 .arrow {
     width: 5em;
     margin-top: 50em;
+    margin-bottom: auto;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+}
+
+.mobile-arrow {
+    width: 5em;
+    margin-top: 42.5em;
     margin-bottom: auto;
     animation: MoveUpDown 2s linear infinite;
     position: relative;
@@ -100,6 +108,14 @@ body {
     color: #0064ff;
 }
 
+.mobile-introduce {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 0.3em;
+    font-size: 3em;
+    color: #0064ff;
+}
+
 .instagram-introduce {
     text-align: center;
     margin-top: 2em;
@@ -114,9 +130,19 @@ body {
     color: grey;
 }
 
+.mobile-about-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+}
+
 .explain-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.mobile-explain-container {
+    text-align: center;
 }
 
 .explain-img {
@@ -124,8 +150,17 @@ body {
     width: auto;
 }
 
+.mobile-explain-img {
+    height: 20em;
+    width: auto;
+}
+
 .explain-text {
     font-size: 2.5em;
+}
+
+.mobile-explain-text {
+    font-size: 1.5em;
 }
 
 .white {
@@ -219,13 +254,17 @@ body {
     color: grey;
 }
 
-.success-button {
+.about-button {
     display: flex;
     justify-content: center;
 }
 
 .margin {
     margin: 20px;
+}
+
+.blank {
+    margin-top: 4em;
 }
 
 .learn-more {
@@ -277,24 +316,16 @@ a {
     margin-right: auto;
 }
 
-#footer {
-    margin-top: -5em;
+.mobile-banner {
+    display: block;
+    margin-top: 10em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15em;
+    width: auto;
 }
 
-@media (max-width: 800px) {
-    .title {
-        font-size: 2.1em;
-    }
-
-    .sub-title {
-        font-size: 1.3em;
-    }
-
-    .intro-text {
-        font-size: 20px;
-    }
-
-    .card-title {
-        font-size: 25px;
-    }
+#footer {
+    margin-top: -5em;
 }

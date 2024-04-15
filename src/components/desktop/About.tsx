@@ -17,7 +17,7 @@ function About() {
                 급식을 매일 확인할 수 있습니다.
             </p>
             <div data-aos="fade-up">
-                <div className="success-button">
+                <div className="about-button">
                     <a
                         href="https://apps.apple.com/kr/app/todaylunch/id6443977069"
                         target="_blank"
