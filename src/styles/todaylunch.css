@@ -9,6 +9,10 @@ body {
     scroll-behavior: smooth;
 }
 
+#home, #explain {
+    overflow-y: hidden;
+}
+
 .header {
     height: 100vh;
     width: 100%;
@@ -34,9 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-tiems: flex-end;
     position: absolute;
-    marin-top: 1000px;
 }
 
 .title {
@@ -112,6 +114,8 @@ body {
     font-weight: bold;
 }
 
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -140,8 +144,8 @@ body {
 }
 
 .card-img {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: auto;
 }
 
 .card-title {
@@ -166,6 +170,10 @@ body {
     text-decoration: none;
 }
 
+.card-title:hover {
+    color: #0064ff
+}
+
 .spec2,
 .spec3 {
     font-size: 35px;
@@ -173,10 +181,10 @@ body {
     text-decoration: none;
 }
 
-.explain {
-    text-align: left;
-    margin-left: 30%;
-    margin-bottom: 3em;
+.click-explain {
+    margin-top: -2em;
+    margin-bottom: 2em;
+    color: white;
 }
 
 .portfolio {
@@ -232,6 +240,10 @@ p {
     text-align: center;
     font-size: 25px;
     color: grey;
+}
+
+a {
+    text-decoration: none;
 }
 
 .center {

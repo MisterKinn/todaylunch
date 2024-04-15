@@ -6,56 +6,64 @@ function Instagram() {
             <h2 className="introduce" data-aos="fade-up">
                 TodayLunch in Instagram
             </h2>
+            <p className="click-explain">카드 클릭 시 각 인스타그램 페이지로 이동됩니다.</p>
 
             <div className="container" data-aos="fade-up">
-                <div className="spec">
-                    <div className="card-container spec2">
-                        <div>
-                            <img
-                                loading="lazy"
-                                src="img/handcuffs.png"
-                                className="card-img"
-                            />
-                            <span className="card-title">
-                                <strong> 형사사건</strong>
-                            </span>
-                            <div className="card-text">
-                                <strong>
-                                    수사단계부터 재판까지 의뢰인의 편에서
-                                    <br />
-                                    <span className="white">최선의 결과</span>를
-                                    위해 노력합니다.
-                                </strong>
+                <a 
+                    href="https://www.instagram.com/gmsh_lunch"
+                    target="_blank"
+                    title="TodayLunch in GMSH"
+                >
+                    <div className="spec">
+                        <div className="card-container spec2">
+                            <div>
+                                <img
+                                    loading="lazy"
+                                    src="img/gmsh.png"
+                                    className="card-img"
+                                />
+                                <span className="card-title">
+                                    <strong> 경기영상과학고</strong>
+                                </span>
+                                <div className="card-text">
+                                    <strong>
+                                        <span className="white">경기영상과학고등학교</span>의 급식을
+                                        <br />
+                                        <span className="white">Instagram</span>에서 확인하세요!
+                                    </strong>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
-                <div className="spec">
-                    <div className="card-container spec2">
-                        <div>
-                            <img
-                                loading="lazy"
-                                src="img/civil.png"
-                                className="card-img"
-                            />
-                            <span className="card-title">
-                                <strong> 민사소송</strong>
-                            </span>
-                            <div className="card-text">
-                                <strong>
-                                    의뢰인의 소중한 권리와 자산 보호를 위해
-                                    <br />
-                                    <span className="white">
-                                        체계적
-                                    </span>이고{" "}
-                                    <span className="white">전략적</span>으로
-                                    접근합니다.
-                                </strong>
+                <a 
+                    href="https://www.instagram.com/gjhs_lunch"
+                    target="_blank"
+                    title="TodayLunch in Gajwa"
+                >
+                    <div className="spec">
+                        <div className="card-container spec2">
+                            <div>
+                                <img
+                                    loading="lazy"
+                                    src="img/gajwa.png"
+                                    className="card-img"
+                                />
+                                <span className="card-title">
+                                    <strong> 가좌고등학교</strong>
+                                </span>
+                                <div className="card-text">
+                                    <strong>
+                                        <span className="white">가좌고등학교</span>의 급식을
+                                        <br />
+                                        <span className="white">Instagram</span>에서 확인하세요!
+                                    </strong>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );

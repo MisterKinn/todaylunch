@@ -32,7 +32,7 @@ function RoadMap() {
     }, []);
 
     return (
-        <div>
+        <div id="home">
             <header className="header">
                 <img src={imgSrc} alt="GMSH RoadMap" className="header-img" />
                 <div className="header-container" data-aos="fade-up">

@@ -1,10 +1,9 @@
 "use client";
 import Home from "../../components/home/Home";
 import About from "../../components/home/about";
-import Works from "../../components/home/works";
+import Explain from "../../components/home/explain";
 import Success from "../../components/home/success";
 import Recruit from "../../components/home/recruit";
-import Footer from "../../components/home/Footer";
 import "../../styles/todaylunch.css";
 
 function Novalaw() {
@@ -12,10 +11,9 @@ function Novalaw() {
         <div>
             <Home />
             <About />
-            <Works />
+            <Explain />
             <Success />
             <Recruit />
-            <Footer />
         </div>
     );
 }
