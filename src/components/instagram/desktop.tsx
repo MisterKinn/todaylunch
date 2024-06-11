@@ -16,7 +16,7 @@ function Desktop() {
                 >
                     <div className="spec">
                         <div className="card-container spec2">
-                            <div>
+                            <div className="column-center">
                                 <img
                                     loading="lazy"
                                     src="img/gmsh.png"
@@ -37,7 +37,7 @@ function Desktop() {
                 >
                     <div className="spec">
                         <div className="card-container spec2">
-                            <div>
+                            <div className="column-center">
                                 <img
                                     loading="lazy"
                                     src="img/gajwa.webp"
@@ -45,6 +45,48 @@ function Desktop() {
                                 />
                                 <span className="card-title">
                                     <strong> 가좌고등학교</strong>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/daejin_lunch"
+                    target="_blank"
+                    title="TodayLunch in Gajwa"
+                >
+                    <div className="spec">
+                        <div className="card-container spec2">
+                            <div className="column-center">
+                                <img
+                                    loading="lazy"
+                                    src="img/daejin.png"
+                                    className="card-img"
+                                />
+                                <span className="card-title">
+                                    <strong> 대진전자통신고</strong>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/shinjin_lunch"
+                    target="_blank"
+                    title="TodayLunch in Gajwa"
+                >
+                    <div className="spec">
+                        <div className="card-container spec2">
+                            <div className="column-center">
+                                <img
+                                    loading="lazy"
+                                    src="img/shinjin.png"
+                                    className="card-img"
+                                />
+                                <span className="card-title">
+                                    <strong> 신진과학기술고</strong>
                                 </span>
                             </div>
                         </div>
