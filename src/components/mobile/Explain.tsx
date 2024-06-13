@@ -20,7 +20,9 @@ function Explain() {
                     <span className="white">급식</span>을
                     <br />
                     휴대폰으로 <span className="white">간편하게 확인</span>
-                    할 수 있습니다.
+                    할
+                    <br />
+                    수 있습니다.
                     <br />
                     <br />
                     <a
