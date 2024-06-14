@@ -1,3 +1,7 @@
+nextjs-portal {
+    display: none;
+}
+
 html,
 body {
     margin: 0;
@@ -225,6 +229,13 @@ body {
     color: #0064ff;
 }
 
+.mobile-instagram-introduce {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #0064ff;
+}
+
 .checklist-introduce {
     text-align: center;
     margin-top: 1em;
@@ -232,12 +243,27 @@ body {
     color: white;
 }
 
+.mobile-checklist-introduce {
+    text-align: center;
+    margin-top: 1.25em;
+    font-size: 2.25em;
+    color: white;
+}
+
 .checklist-list {
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: -0.5em;
+    margin-top: -0.5em;
+    margin-bottom: -0.25em;
     font-size: 3em;
-    color: white;
+    color: #0064ff;
+}
+
+.mobile-checklist-list {
+    text-align: center;
+    margin-top: -0.5em;
+    margin-bottom: -0.25em;
+    font-size: 1.75em;
+    color: #0064ff;
 }
 
 .mobile-instagram-introduce {
@@ -260,6 +286,22 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     color: grey;
+}
+
+.about-text {
+    text-align: left;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    color: #c3c3c6;
+}
+
+.mobile-about-text {
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    color: #c3c3c6;
 }
 
 .explain-container {
@@ -306,6 +348,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -7.5em;
 }
 
 .card-container {
@@ -389,6 +437,11 @@ body {
 
 .mobile-click-explain {
     margin-top: -1em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.click-explain2 {
     margin-bottom: 2em;
     color: white;
 }

@@ -50,7 +50,9 @@ function Desktop() {
                         </div>
                     </div>
                 </a>
+            </div>
 
+            <div className="container" data-aos="fade-up">
                 <a
                     href="https://www.instagram.com/daejin_lunch"
                     target="_blank"
@@ -95,11 +97,7 @@ function Desktop() {
             </div>
 
             <div className="add-insta">
-                <a
-                    href="/instagram/add"
-                    target="_blank"
-                    title="학교 추가하기"
-                >
+                <a href="/instagram/add" target="_blank" title="학교 추가하기">
                     <button className="join2">학교 추가하기</button>
                 </a>
             </div>

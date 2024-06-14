@@ -27,7 +27,12 @@ function Mobile() {
                                     className="card-img"
                                 />
                                 <span className="card-title">
-                                    <strong> 경기영상<br />과학고</strong>
+                                    <strong>
+                                        {" "}
+                                        경기영상
+                                        <br />
+                                        과학고
+                                    </strong>
                                 </span>
                             </div>
                         </div>
@@ -48,7 +53,12 @@ function Mobile() {
                                     className="card-img"
                                 />
                                 <span className="card-title">
-                                    <strong> 가좌<br />고등학교</strong>
+                                    <strong>
+                                        {" "}
+                                        가좌
+                                        <br />
+                                        고등학교
+                                    </strong>
                                 </span>
                             </div>
                         </div>
@@ -69,7 +79,12 @@ function Mobile() {
                                     className="card-img"
                                 />
                                 <span className="card-title">
-                                    <strong> 대진전자<br />통신고</strong>
+                                    <strong>
+                                        {" "}
+                                        대진전자
+                                        <br />
+                                        통신고
+                                    </strong>
                                 </span>
                             </div>
                         </div>
@@ -90,11 +105,22 @@ function Mobile() {
                                     className="card-img"
                                 />
                                 <span className="card-title">
-                                    <strong> 신진과학<br />기술고</strong>
+                                    <strong>
+                                        {" "}
+                                        신진과학
+                                        <br />
+                                        기술고
+                                    </strong>
                                 </span>
                             </div>
                         </div>
                     </div>
+                </a>
+            </div>
+
+            <div className="add-insta">
+                <a href="/instagram/add" target="_blank" title="학교 추가하기">
+                    <button className="join2">학교 추가하기</button>
                 </a>
             </div>
         </div>
